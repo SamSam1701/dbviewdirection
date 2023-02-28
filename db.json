@@ -1,117 +1,39 @@
-[
-  {
-  "result": {
-    "profile": {
+{
+  "leaning-profile": [
+    {
       "id": 1,
-      "expertise_scope": "Fresher UI/UX",
-      "created_at": "2023-02-27T19:47:38.365Z",
-      "updated_at": "2023-02-27T19:47:38.365Z",
-      "deleted_at": null
+      "alias": "JohnDoe",
+      "competency_level_name": "Intermediate",
+      "learning_direction_status": "view",
+      "created_status": true
     },
-    "knowledgeArea": {
-      "id": 1,
-      "name": "string",
-      "description": "string",
-      "type": "EXPERTISES",
-      "created_at": "2023-02-27T19:56:36.191Z",
-      "updated_at": "2023-02-27T19:56:36.191Z",
-      "deleted_at": null
+    {
+      "id": 2,
+      "alias": "JaneSmith",
+      "competency_level_name": "Beginner",
+      "learning_direction_status": "na",
+      "created_status": false
     },
-    "level": 100,
-    "isKC": true,
-    "id": 1
-  },
-  "meta": {
-    "statusCode": 201,
-    "message": "Success",
-    "error": ""
-  }
-},
-
-{
-"result": {
-"profile": {
-"id": 2,
-"expertise_scope": "Junior Web Developer",
-"created_at": "2023-02-28T10:15:45.730Z",
-"updated_at": "2023-02-28T10:15:45.730Z",
-"deleted_at": null
-},
-"knowledgeArea": {
-"id": 2,
-"name": "Web Development",
-"description": "Building websites and web applications",
-"type": "EXPERTISES",
-"created_at": "2023-02-28T10:15:45.730Z",
-"updated_at": "2023-02-28T10:15:45.730Z",
-"deleted_at": null
-},
-"level": 80,
-"isKC": true,
-"id": 2
-},
-"meta": {
-"statusCode": 200,
-"message": "Success",
-"error": ""
+    {
+      "id": 3,
+      "alias": "BobJohnson",
+      "competency_level_name": "Expert",
+      "learning_direction_status": "view",
+      "created_status": true
+    },
+    {
+      "id": 4,
+      "alias": "AliceLee",
+      "competency_level_name": "Advanced",
+      "learning_direction_status": "view",
+      "created_status": false
+    },
+    {
+      "id": 5,
+      "alias": "SamuelChang",
+      "competency_level_name": "Intermediate",
+      "learning_direction_status": "na",
+      "created_status": true
+    }
+  ]
 }
-},
-
-{
-"result": {
-"profile": {
-"id": 3,
-"expertise_scope": "Senior Data Scientist",
-"created_at": "2023-02-28T10:20:12.831Z",
-"updated_at": "2023-02-28T10:20:12.831Z",
-"deleted_at": null
-},
-"knowledgeArea": {
-"id": 3,
-"name": "Data Science",
-"description": "Analyzing and interpreting complex data",
-"type": "EXPERTISES",
-"created_at": "2023-02-28T10:20:12.831Z",
-"updated_at": "2023-02-28T10:20:12.831Z",
-"deleted_at": null
-},
-"level": 95,
-"isKC": true,
-"id": 3
-},
-"meta": {
-"statusCode": 200,
-"message": "Success",
-"error": ""
-}
-},
-
-{
-"result": {
-"profile": {
-"id": 4,
-"expertise_scope": "Experienced Product Manager",
-"created_at": "2023-02-28T10:25:33.671Z",
-"updated_at": "2023-02-28T10:25:33.671Z",
-"deleted_at": null
-},
-"knowledgeArea": {
-"id": 4,
-"name": "Product Management",
-"description": "Developing and managing products from ideation to launch",
-"type": "EXPERTISES",
-"created_at": "2023-02-28T10:25:33.671Z",
-"updated_at": "2023-02-28T10:25:33.671Z",
-"deleted_at": null
-},
-"level": 90,
-"isKC": true,
-"id": 4
-},
-"meta": {
-"statusCode": 200,
-"message": "Success",
-"error": ""
-}
-}
-]
